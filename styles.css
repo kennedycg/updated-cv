@@ -1,0 +1,46 @@
+/*the following below are tag selectors*/
+body {
+  background-color: #C8C6C6;
+}
+
+img{
+  height: 140px;
+
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 5px;
+  width: 10%;
+  height: 1px;
+}
+
+h2, h3, h4 {
+  color: #3F72AF;
+}
+
+h1 {
+  color: #112031;
+  font-style: oblique;
+  font-size: 40px;
+  background-color: inherit;
+}
+
+/**one can use  class selectors to be more specific,by giving each a class*/
+/* we can also use class selectors*/
+.chicken {
+  color: black;
+}
+.circular{
+border-radius:100px;
+}
+
+/*we can also use id selectors, the advantage of the two (class and id) they are more specific
+#heading{
+
+  color: red;
+}*/
+/* you will notice that the class and id selectors are been chosen over the type selectors this is because they are more specific
+and thats there main key purpose*/
+/* also a particular id can be used once on this page ,for example we cannot use the word heading again since weve already used it
+in our code once, but for class we can use it multiple times in the same page*/
